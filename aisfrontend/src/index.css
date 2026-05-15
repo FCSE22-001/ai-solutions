@@ -1,0 +1,128 @@
+@import "tailwindcss";
+
+@keyframes scroll{
+    0% {transform: translateX(0);}
+    100% {transform: translateX(-50%);}
+}
+
+.animate-scroll{
+    animation:scroll 30s linear infinite;
+    width: max-content;
+    display: flex;
+}
+
+.animate-scroll:hover{
+    animation-play-state: paused;
+}
+
+@keyframes scroll-reviews {
+    0% {transform: translateX(0);}
+    100% {transform: translateX(-50%);}
+}
+
+.animate-scroll-reviews {
+    animation: scroll-reviews 20s linear infinite;
+    width: max-content;
+    display: flex;
+}
+
+.animate-scroll-reviews:hover {
+    animation-play-state: paused;
+}
+
+.scrollbar-hide{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar{
+    display: none;
+}
+
+.PhoneInputCountrySelect{
+    background: #1A1A1A!important;
+    color: white !important;
+}
+
+.PhoneInputCountrySelectArrow{
+    color: white !important;
+}
+
+.PhoneInput{
+    background: transparent !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 8px !important;
+    padding: 12px 16px !important;
+}
+
+.PhoneInputInput{
+    background: transparent !important;
+    color: white !important;
+    border: none !important;
+    outline: none !important;
+}
+
+.PhoneInputInput::placeholder{
+    color: #6B7280 !important;
+}
+
+.PhoneInputCountryIcon{
+    margin-right: 8px !important;
+}
+
+.ReactFlagsSelect-module_selectBtn__19wW7{
+    background: rgba(255, 255, 255, 0.05) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    color: white !important;
+    border-radius: 8px !important;
+}
+
+.ReactFlagsSelect-module_selectOptions__3LNBJ{
+    background: #1A1A1A !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    color: white !important;
+}
+
+.ReactFlagsSelect-module_selectOption__29s0B{
+    color: white !important;
+}
+
+.ReactFlagsSelect-module_selectOption__19wW7{
+    background: rgba(255, 255, 255, 0.1) !important;
+}
+
+.ReactFlagsSelect-module_filterBox__3m8EU input{
+    background: rgba(255, 255, 255, 0.05) !important;
+    color: white !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.ReactFlagsSelect-module_filterBox__3m8EU{
+    background: #1A1A1A !important;
+}
+
+.ReactFlagsSelect-module_filterBox__3m8EU input{
+    background: #1A1A1A !important;
+    color: white !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 4px !important;
+}
+
+.ReactFlagsSelect-module_filterBox__3m8EU input::placeholder{
+    color: #6B7280 !important;
+}
+
+@keyframes scroll-promo {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+
+.animate-scroll-promo {
+    animation: scroll-promo 25s linear infinite;
+    width: max-content;
+    display: flex;
+}
+
+.animate-scroll-promo:hover {
+    animation-play-state: paused;
+}
